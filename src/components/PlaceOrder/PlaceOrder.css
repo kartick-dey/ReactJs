@@ -1,0 +1,14 @@
+.PlaceOrderContainer {
+  /* width: 100%; */
+  flex-flow: column;
+  align-items: center;
+  /* height: 500px; */
+}
+
+.PlaceOrder {
+  width: 50%;
+  height: 70%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}

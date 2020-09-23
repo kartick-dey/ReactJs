@@ -1,0 +1,11 @@
+.Restaurents {
+  width:80%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* box-shadow: 2px 2px #ccc; */
+  margin-left: 50px 0 0 0;
+  padding: 10px;
+}

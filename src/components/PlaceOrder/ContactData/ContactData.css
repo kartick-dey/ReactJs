@@ -1,0 +1,34 @@
+.ContactData {
+  /* margin: 20px auto; */
+  width: auto;
+  text-align: center;
+  align-items: center;
+  /* flex-flow: column; */
+  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.PlaceOrderButton {
+  margin-top: 20px;
+  background-color: 	#FFA500;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.PlaceOrderButton:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+@media (min-width: 600px) {
+  .ContactData {
+    width: 500px;
+  }
+
+}

@@ -1,0 +1,74 @@
+.OrderCuisines {
+  width:100%;
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* box-shadow: 2px 2px 2px 2px #ccc; */
+  /* margin: 30px; */
+  padding: 20px 0;
+}
+
+@media (max-width: 499px) {
+	.OrderCuisines {
+		margin-left: 30px;
+	}
+
+
+}
+
+.RestaurentDetails {
+  width:80%;
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  /* box-shadow: 2px 2px 2px 2px #ccc; */
+  margin: auto;
+  /* padding: 10px 0; */
+}
+.RestaurentDetails img {
+  /* width: 900px; */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.AddCuisinDiv {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 499px) {
+  .AddCuisinDiv {
+    width: 80%;
+    float: right;
+  }
+}
+.PlaceOrderDivFooter {
+  height: 50px;
+  width: 100%;
+  background-color: #FA8072;
+  flex-flow: column;
+  display: flex;
+  margin-top: 30px;
+  bottom: 0;
+  /* color: white */
+  /* position: fixed; */
+}
+
+.ContinueOrderButton {
+  background-color: #DC143C;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  box-shadow: 2px #ccc;
+}
+@media (max-width: 499px) {
+  .ContinueOrderButton {
+    width: 100%;
+  }
+
+}
